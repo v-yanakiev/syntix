@@ -22,6 +22,7 @@ Here's a YouTube demonstration of the (still unfinished) browser extension, allo
 
 I use fly.io's Fly Machines for the execution environments, as well as for the app's back-end.
 
+Here's a link to the service: https://syntix.pro
+
 Here's the Discord server for the service: https://discord.gg/EsJPJdBaR3
 
-Here's a link to the service: https://syntix.pro

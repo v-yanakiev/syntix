@@ -1,0 +1,47 @@
+{
+  "name": "C# AOT Development",
+  "image": "mcr.microsoft.com/dotnet/sdk:9.0",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts",
+      "nodeGypDependencies": true
+    },
+    "ghcr.io/devcontainers-contrib/features/typescript:1": {},
+    "ghcr.io/devcontainers/features/dotnet:1": {
+      "version": "latest",
+      "installUsingApt": true
+    },
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.10",
+      "installTools": true,
+      "installJupyterlab": true
+    },
+    "ghcr.io/devcontainers-extra/features/jbang-sdkman:2": {},
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/rust:1": {
+      "version": "latest"
+    },
+    "ghcr.io/itsmechlark/features/postgresql:1": {
+      "version": "15"
+    }
+  },
+  "postCreateCommand": "apt update && apt install -y curl && curl -L https://fly.io/install.sh | sh && apt remove -y curl && dotnet restore",
+  "mounts": [
+    "source=${localEnv:HOME}/.nuget/packages,target=/root/.nuget/packages,type=bind,consistency=cached"
+  ],
+  "runArgs": [
+    "--cap-add=SYS_PTRACE",
+    "--security-opt",
+    "seccomp=unconfined"
+  ],
+  "appPort": [
+    "65432:65432"
+  ]
+}

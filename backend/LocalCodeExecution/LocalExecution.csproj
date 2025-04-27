@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Docker.DotNet" Version="3.125.15"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\AbstractExecution\AbstractExecution.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="OpenAI">
+            <HintPath>..\..\..\..\.nuget\packages\openai\2.0.0-beta.8\lib\net6.0\OpenAI.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Memory.Data">
+            <HintPath>..\..\..\..\.nuget\packages\system.memory.data\1.0.2\lib\netstandard2.0\System.Memory.Data.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>

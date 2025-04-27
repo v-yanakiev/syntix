@@ -1,0 +1,13 @@
+node_modules
+.vite
+supabase/.env.local
+.vs
+**/bin/
+**/obj/
+*DotSettings.user
+.env
+wireguard.conf
+ExecutionDirectory
+.idea
+dist
+cache

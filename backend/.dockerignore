@@ -1,0 +1,59 @@
+# flyctl launch added from CodeRunner/.gitignore
+CodeRunner/**/execution
+
+# flyctl launch added from CodeRunner/.idea/.gitignore
+# Default ignored files
+CodeRunner/.idea/shelf
+CodeRunner/.idea/workspace.xml
+# Rider ignored files
+CodeRunner/.idea/contentModel.xml
+CodeRunner/.idea/modules.xml
+CodeRunner/.idea/projectSettingsUpdater.xml
+CodeRunner/.idea/.idea.CodeRunner.iml
+# Editor-based HTTP Client requests
+CodeRunner/.idea/httpRequests
+# Datasource local storage ignored files
+CodeRunner/.idea/dataSources
+CodeRunner/.idea/dataSources.local.xml
+
+# flyctl launch added from CodeRunner/.idea/.idea.CodeRunner.dir/.idea/.gitignore
+# Default ignored files
+CodeRunner/.idea/.idea.CodeRunner.dir/.idea/shelf
+CodeRunner/.idea/.idea.CodeRunner.dir/.idea/workspace.xml
+# Rider ignored files
+CodeRunner/.idea/.idea.CodeRunner.dir/.idea/modules.xml
+CodeRunner/.idea/.idea.CodeRunner.dir/.idea/.idea.CodeRunner.iml
+CodeRunner/.idea/.idea.CodeRunner.dir/.idea/contentModel.xml
+CodeRunner/.idea/.idea.CodeRunner.dir/.idea/projectSettingsUpdater.xml
+# Editor-based HTTP Client requests
+CodeRunner/.idea/.idea.CodeRunner.dir/.idea/httpRequests
+# Datasource local storage ignored files
+CodeRunner/.idea/.idea.CodeRunner.dir/.idea/dataSources
+CodeRunner/.idea/.idea.CodeRunner.dir/.idea/dataSources.local.xml
+
+# flyctl launch added from aiExecBackend/.idea/.idea.aiExecBackend/.idea/.gitignore
+# Default ignored files
+aiExecBackend/.idea/.idea.aiExecBackend/.idea/shelf
+aiExecBackend/.idea/.idea.aiExecBackend/.idea/workspace.xml
+# Rider ignored files
+aiExecBackend/.idea/.idea.aiExecBackend/.idea/.idea.aiExecBackend.iml
+aiExecBackend/.idea/.idea.aiExecBackend/.idea/modules.xml
+aiExecBackend/.idea/.idea.aiExecBackend/.idea/contentModel.xml
+aiExecBackend/.idea/.idea.aiExecBackend/.idea/projectSettingsUpdater.xml
+# Editor-based HTTP Client requests
+aiExecBackend/.idea/.idea.aiExecBackend/.idea/httpRequests
+# Datasource local storage ignored files
+aiExecBackend/.idea/.idea.aiExecBackend/.idea/dataSources
+aiExecBackend/.idea/.idea.aiExecBackend/.idea/dataSources.local.xml
+fly.toml
+
+# directories
+**/bin/
+**/obj/
+**/out/
+
+# files
+fly.toml
+Dockerfile*
+**/*.md
+.env

@@ -1,0 +1,71 @@
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+  --vp-c-brand-dark: #535bf2;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+  --vp-c-bg-soft: rgba(33, 33, 45, 0.8);
+}
+
+.dark {
+  --vp-c-bg-soft: rgba(33, 33, 45, 0.8);
+}
+
+.VPButton.brand {
+  border-color: var(--vp-button-brand-border);
+  color: var(--vp-button-brand-text);
+  background-color: var(--vp-button-brand-bg);
+}
+
+.VPButton.brand:hover {
+  border-color: var(--vp-button-brand-hover-border);
+  color: var(--vp-button-brand-hover-text);
+  background-color: var(--vp-button-brand-hover-bg);
+}
+
+.home-hero-with-video {
+  display: flex;
+  gap: 48px;
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+.home-hero-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.home-hero-video {
+  flex: 1;
+  max-width: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-hero-video iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+@media (max-width: 960px) {
+  .home-hero-with-video {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .home-hero-video {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .home-hero-with-video {
+    gap: 24px;
+  }
+}

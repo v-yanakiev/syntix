@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "frontend"
+		},
+		{
+			"path": "execution"
+		},
+		{
+			"path": ".github/workflows"
+		}
+	]
+}

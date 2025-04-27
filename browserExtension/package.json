@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "build:chrome": "BROWSER=chrome npm run build:browser",
+    "build:firefox": "BROWSER=firefox npm run build:browser",
+    "build:browser": "BUILD_TARGET=background vite build && BUILD_TARGET=content vite build",
+    "build": "npm run build:chrome && npm run build:firefox"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.306",
+    "@types/firefox-webext-browser": "^120.0.4",
+    "@types/webextension-polyfill": "^0.12.3",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@floating-ui/dom": "^1.6.13",
+    "highlight.js": "^11.11.1",
+    "uuid": "^11.1.0",
+    "webextension-polyfill": "^0.12.0"
+  }
+}

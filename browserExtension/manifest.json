@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Code Executor",
+    "version": "1.0",
+    "description": "Adds an 'Execute Code' button to code blocks and sends the code to a service",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://app.syntix.pro/*",
+      "http://localhost/*",
+      "<all_urls>"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": [
+          "browser-polyfill.min.js",
+          "contentScript.js"
+        ],
+        "run_at": "document_end"
+      }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+  }

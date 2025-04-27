@@ -8,10 +8,6 @@ You can also upload files and folders to the execution environment for processin
 
 You can also define your own execution environment using a Dockerfile.
 
-I use fly.io's Fly Machines for the execution environments, as well as for the app's back-end.
-
-Here's the Discord server for the service: https://discord.gg/EsJPJdBaR3
-
 Here's a YouTube demonstration of the Syntix AI agent fetching the top Hacker News post of the day, based on a user request:
 
 [![Syntix fetching demonstration](https://img.youtube.com/vi/_wcJ7mTNJ0A/0.jpg)](https://www.youtube.com/watch?v=_wcJ7mTNJ0A)
@@ -24,4 +20,8 @@ Here's a YouTube demonstration of the (still unfinished) browser extension, allo
 
 [![Syntix browser extension](https://img.youtube.com/vi/WrYfF_y-wvk/0.jpg)](https://www.youtube.com/watch?v=WrYfF_y-wvk)
 
-https://www.syntix.pro/
+I use fly.io's Fly Machines for the execution environments, as well as for the app's back-end.
+
+Here's the Discord server for the service: https://discord.gg/EsJPJdBaR3
+
+Here's a link to the service: https://syntix.pro

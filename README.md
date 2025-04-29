@@ -1,12 +1,6 @@
 Syntix.pro is an open-source AI code interpreter. It allows you to ask an AI programming questions, and have it answer back in one of 8 languages: JavaScript, TypeScript, Python, C#, Java, Go, Rust, pgSQL.
 
-The AI will automatically install any needed dependencies and execute the generated code in its own environment - with full internet access.
-
-This gives the AI instant feedback on its code, circumventing hallucinations.
-
-You can also upload files and folders to the execution environment for processing. The current size limit is about 7GB.
-
-You can also define your own execution environment using a Dockerfile.
+The AI will automatically install any needed dependencies and execute the generated code in its own environment - with full internet access. This gives the AI instant feedback on its code, circumventing hallucinations. You can also upload files and folders to the execution environment for processing. The current size limit is about 7GB. You can also define your own execution environment using a Dockerfile.
 
 Here's a YouTube demonstration of the Syntix AI agent fetching the top Hacker News post of the day, based on a user request:
 

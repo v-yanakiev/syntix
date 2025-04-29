@@ -2,7 +2,7 @@ Syntix.pro is an open-source AI code interpreter. It allows you to ask an AI pro
 
 The AI will automatically install any needed dependencies and execute the generated code in its own environment - with full internet access. This gives the AI instant feedback on its code, circumventing hallucinations. You can also upload files and folders to the execution environment for processing. The current size limit is about 7GB. You can also define your own execution environment using a Dockerfile.
 
-Here's a YouTube demonstration of the Syntix AI agent fetching the top Hacker News post of the day, based on a user request:
+Here's a YouTube demonstration of the Syntix AI agent fetching the top Hacker News post of the day:
 
 [![Syntix fetching demonstration](https://img.youtube.com/vi/_wcJ7mTNJ0A/0.jpg)](https://www.youtube.com/watch?v=_wcJ7mTNJ0A)
 
